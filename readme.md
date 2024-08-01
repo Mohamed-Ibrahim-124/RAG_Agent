@@ -21,22 +21,64 @@ This project implements a Retrieval-Augmented Generation (RAG) system that combi
 
 2. **Run the project**:
     ```bash
-    python main.py
+    python -m streamlit run app.py
     ```
-
-## Deliverables
-
-- **Presentation Video**: Overview of the project, methodology, results, and evaluation.
-- **Scripts**: All project functionalities.
-- **Jupyter Notebook**: Detailed implementation steps, code, and examples.
-- **Evaluation Report**: Testing procedures, performance evaluation, and simulated user feedback.
 
 ## Task Breakdown
 
-1. **Document Preprocessing**: 3 hours
-2. **Document Storage**: 2 hours
-3. **Firework API Integration**: 2 hours
-4. **Combining Retrieval and Generation**: 3 hours
-5. **Testing and Evaluation**: 3 hours
+**Project Duration:** 4 Working Days
 
-Total: 13 hours
+**Time Spent on Each Task:**
+
+* **Day 1: Initial Setup and Planning**
+    * Time Spent: 2 hours (5:00 PM - 7:00 PM)
+    * Tasks:
+        * Set up the development environment.
+        * Reviewed project requirements and outlined the approach.
+        * Created initial project structure.
+
+* **Day 2: Document Preprocessing**
+    * Time Spent: 3 hours (5:00 PM - 8:00 PM)
+    * Tasks:
+        * Developed and tested document preprocessing methods for various file types (PDF, DOCX, CSV, TXT).
+        * Implemented text extraction and normalization.
+        * Debugged and refined preprocessing functions.
+
+* **Day 3: Retrieval System Development and Integration**
+    * Time Spent: 3.5 hours (5:00 PM - 8:30 PM)
+    * Tasks:
+        * Implemented and tested retrieval system using LlamaIndex and Fireworks LLM.
+        * Developed custom search algorithm and integrated it with the existing system.
+        * Evaluated retrieval accuracy and made necessary adjustments.
+
+* **Day 4: Generation Model Integration, Testing, and Documentation**
+    * Time Spent: 4 hours (5:00 PM - 9:00 PM)
+    * Tasks:
+        * Integrated the generation model with the retrieval system.
+        * Conducted end-to-end testing of the RAG system.
+        * Documented code and added comments.
+        * Prepared the evaluation report and project documentation.
+
+**Total Time Spent:** 12.5 hours
+
+Total: 12.5 hours
+
+Evaluation
+
+    Testing Procedures: Comprehensive unit tests were performed on the document preprocessing, retrieval, and generation components. Testing also included performance evaluation using simulated queries and document inputs.
+    Performance Evaluation: Metrics such as accuracy, relevance scores, and user feedback were analyzed to gauge the system's effectiveness and reliability.
+    Simulated User Feedback: Feedback was collected from simulated users to assess the system’s usability and performance under typical use cases.
+
+Requirements
+
+    Software Requirements:
+        Streamlit
+        PyPDF2
+        Docx
+        LlamaIndex
+        Torch
+        Fireworks (Fireworks LLM API key)
+        Sentence-transformers
+        Plotly
+        HDBSCAN
+
