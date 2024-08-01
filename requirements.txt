@@ -1,0 +1,9 @@
+docx==0.2.4
+llama_index==0.10.58
+plotly==5.23.0
+PyPDF2==3.0.1
+python_docx==1.1.2
+scikit_learn==1.5.1
+sentence_transformers==2.7.0
+streamlit==1.37.0
+torch==1.13.1
