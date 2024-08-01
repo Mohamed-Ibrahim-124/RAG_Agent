@@ -28,11 +28,13 @@ This project implements a Retrieval-Augmented Generation (RAG) system that combi
     ```   
 
 
-2. **Run the project**:
+3. **Run the project**:
     ```bash
     python -m streamlit run app.py
     ```
+4. **Upload Documents**: Upload documents in PDF, DOCX, CSV, or TXT format using the Streamlit interface.
 
+5. **Submit Queries**: Enter your query in the provided text input and submit to receive a generated response.
 ## Task Breakdown
 
 **Project Duration:** 4 Working Days
